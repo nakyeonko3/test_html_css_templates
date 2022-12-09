@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Smart Plug</title>
+  </head>
+  <body>
+    <section class="flex-center">
+        <div>
+            <span class="text-size-small">가변 저항 값:</span>
+            <span class="sensor_data text-size-small"></span>
+        </div>
+        <div>
+            <span class="date text-size-small">11:29</span>
+        </div>
+      </div>
+      <div class="chart-size">
+        <span>chart rand 들어갈 부분</span>
+      </div>
+    </section>
+    <section class="flex-center">
+      <div>
+        <span>어항 ph 측정</span>
+      </div>
+      <div>
+        <span class="text-size-small pH_value">ph:</span>
+        <span class="text-size-small pH_value" id="pH_value"></span>
+        <span class="text-size-small" id="ph_warning"></span>
+        <div class="chart-size">
+          <span>chart ph 들어갈 부분</span>
+        </div>
+      </div>
+      <div><span id="ph_warning"></span></div>
+    </section>
+  </body>
+</html>
